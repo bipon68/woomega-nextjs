@@ -1,0 +1,144 @@
+/* -----------------------------------
+** Banner
+-------------------------------------*/
+.banner-area{
+    position: relative;
+}
+.banner-text-content{
+    position: absolute;
+    top:50%;
+    transform: translateY(-40%);
+    left:0;
+    width:100%;
+}
+.banner-title{
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.banner-image{
+    width:100%;
+    min-height: 320px;
+    object-fit: cover;
+}
+.woomega-breadcumb{
+    li{
+        display: inline-block;
+        color: $black;
+        a{
+            color: $black;
+        }
+        &:not(:last-child){
+            &:after{
+                content: '>';
+                padding-left:5px;
+                 font-family: $open;
+                padding-right: 3px;
+            }
+        }
+    }
+
+}
+.breadcumb-area{
+    background: url('../images/breadcumb-banner.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 170px;
+    padding-bottom: 65px;
+    .banner-title{
+        font-size: 30px;
+    }
+    .woomega-breadcumb{
+        li{
+            color: $black;
+            a{
+                color: $black;
+            }
+        }
+    }
+}
+
+.home3-banner{
+    position: relative;
+    background: url('../images/home3/slider-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding: 10% 5%;
+}
+.category-filter-wrapper{
+    &__left{
+        width:395px;
+        background: $white;
+    }
+    &__right{
+
+    }
+    &__middle{
+
+    }
+}
+.banner-filter{
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+        color: $black;
+        border-bottom-color: $base;
+        border-right-color: #e5e5e5;
+        background: #fff8f0;
+        border-width: 0 1px 1px 0;
+    }
+    .nav>li>a:focus, .nav>li>a:hover{
+        background: $white;
+    }
+
+    .nav-tabs{
+        margin:0;
+        padding:0;
+        li{
+            margin:0;
+            padding:0;
+            width: 50%;
+            a{
+                border-width: 0 1px 1px 0;
+                border-style: solid;
+                border-color: #e5e5e5;
+                text-align: center;
+                margin:0;
+                display: block;
+                font-size: 16px;
+                padding:13px 15px;
+                border-radius: 0 !important;
+            }
+            &:last-child{
+                a{
+                    border-right: 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------
+** End Banner
+-------------------------------------*/

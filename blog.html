@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Woomega</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ================= Favicon ================== -->
+    <link rel="icon" sizes="72x72" href="images/favicon-96x96.png">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!-- Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <!-- Bootsrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Magnific Popup-->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Select2 -->
+    <link rel="stylesheet" href="css/select2.min.css">
+    <!-- Animate css-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Style-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Modernizr-->
+    <script src="js/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header class="woomega-header woomega-header--2 woomega-header--absolute">
+      <div class="main-menu-area">
+          <div class="container-fluid">
+              <div class="menu-logo">
+                  <nav id="easy-menu">
+                      <ul class="menu-list">
+                          <li><a href="index.html">Home</a>
+                              <ul class="dropdown">
+                                  <li><a href="index.html">Home One</a></li>
+                                  <li><a href="index-two.html">Home Two</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#">SHOP</a></li>
+                          <li><a href="#">Feature</a></li>
+                          <li><a href="about-us.html">Pages</a></li>
+                          <li><a href="contact-us.html">Contact</a></li>
+                     </ul>
+                 </nav><!--#easy-menu-->
+                  <div class="logo text-center">
+                      <a href="index.html" class="logo-index"><img src="images/logo.png" alt="" /></a>
+                  </div>
+
+                 <div class="header-right-icons-wrap">
+                     <!-- <a href="donate.html" class="btn base-bg hidden-xs hidden-sm">Donet Now</a> -->
+                     <ul class="header-icons">
+                       <li>
+                           <!-- <a href="#"><i class="la la-search"></i></a> -->
+                           <a href="#!" class="base-color search-box__link">
+                               <i class="la la-search"></i>
+                           </a>
+                           <div class="search-box">
+                                <div class="top-search-input-wrap">
+                                    <span class="close-icon"><i class="la la-close"></i></span>
+                                    <div class="top-search-overlay"></div>
+                                    <form action="#" method="post">
+                                        <div class="search-wrap">
+                                            <div class="search  pull-right educon-top-search">
+                                                <div class="sp_search_input">
+                                                    <input name="searchword" maxlength="200" class="pull-right" placeholder="Search" type="text"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div><!--/.search-box -->
+                       </li>
+                       <li><a href="#"><i class="la la-heart-o"></i></a></li>
+                       <li><a href="#"><i class="la la-shopping-cart"></i><span class="base-bg count-number">2</span> </a></li>
+                       <li><a href="#"><i class="la la-user"></i></a></li>
+                       <li class="hidden-lg hidden-md"><a href="#"  id="humbarger-icon"><button class="action action--open" aria-label="Open Menu"><span class="fa fa-bars"></span></button> </a></li>
+                     </ul>
+
+                 </div>
+              </div>
+          </div>
+      </div>
+        <div class="mobile-menu-wrapper">
+    		<nav id="ml-menu" class="menu">
+    			<button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+    			<div class="menu__wrap">
+    				<ul data-menu="main" class="menu__level" tabindex="-1" role="menu" aria-label="All">
+    					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-1" aria-owns="submenu-1" href="#">Vegetables</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-2" aria-owns="submenu-2" href="#">Fruits</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-3" aria-owns="submenu-3" href="#">Grains</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-4" aria-owns="submenu-4" href="#">Mylk &amp; Drinks</a></li>
+    				</ul>
+    				<!-- Submenu 1 -->
+    				<ul data-menu="submenu-1" id="submenu-1" class="menu__level" tabindex="-1" role="menu" aria-label="Vegetables">
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Stalk Vegetables</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Roots &amp; Seeds</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Cabbages</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Salad Greens</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Mushrooms</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-1-1" aria-owns="submenu-1-1" href="#">Sale %</a></li>
+    				</ul>
+    				<!-- Submenu 1-1 -->
+    				<ul data-menu="submenu-1-1" id="submenu-1-1" class="menu__level" tabindex="-1" role="menu" aria-label="Sale %">
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Fair Trade Roots</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Dried Veggies</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Our Brand</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Homemade</a></li>
+    				</ul>
+    				<!-- Submenu 2 -->
+    				<ul data-menu="submenu-2" id="submenu-2" class="menu__level" tabindex="-1" role="menu" aria-label="Fruits">
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Citrus Fruits</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Berries</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-2-1" aria-owns="submenu-2-1" href="#">Special Selection</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Tropical Fruits</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Melons</a></li>
+    				</ul>
+    				<!-- Submenu 2-1 -->
+    				<ul data-menu="submenu-2-1" id="submenu-2-1" class="menu__level" tabindex="-1" role="menu" aria-label="Special Selection">
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Exotic Mixes</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Wild Pick</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Vitamin Boosters</a></li>
+    				</ul>
+    				<!-- Submenu 3 -->
+    				<ul data-menu="submenu-3" id="submenu-3" class="menu__level" tabindex="-1" role="menu" aria-label="Grains">
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Buckwheat</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Millet</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Quinoa</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Wild Rice</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Durum Wheat</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-3-1" aria-owns="submenu-3-1" href="#">Promo Packs</a></li>
+    				</ul>
+    				<!-- Submenu 3-1 -->
+    				<ul data-menu="submenu-3-1" id="submenu-3-1" class="menu__level" tabindex="-1" role="menu" aria-label="Promo Packs">
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Starter Kit</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">The Essential 8</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Bolivian Secrets</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Flour Packs</a></li>
+    				</ul>
+    				<!-- Submenu 4 -->
+    				<ul data-menu="submenu-4" id="submenu-4" class="menu__level" tabindex="-1" role="menu" aria-label="Mylk &amp; Drinks">
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Grain Mylks</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Seed Mylks</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Nut Mylks</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Nutri Drinks</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-4-1" aria-owns="submenu-4-1" href="#">Selection</a></li>
+    				</ul>
+    				<!-- Submenu 4-1 -->
+    				<ul data-menu="submenu-4-1" id="submenu-4-1" class="menu__level" tabindex="-1" role="menu" aria-label="Selection">
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Nut Mylk Packs</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Amino Acid Heaven</a></li>
+    					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Allergy Free</a></li>
+    				</ul>
+    			</div>
+    		</nav>
+        </div><!--/.mobile-menu-wrapper-->
+    </header>
+    <div class="banner-area banner-area--blog">
+        <img class="banner-image" src="images/blog/banner.jpg" alt="">
+        <div class="banner-text-content">
+            <div class="container text-center">
+                <h2 class="banner-title">Blog Page</h2>
+                <ul class="woomega-breadcumb">
+                    <li><a href="#">Home</a></li>
+                    <li>Blog Page</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main-content section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="blog-post">
+                        <div class="blog-post__thumb">
+                            <img src="images/blog/blog4.jpg" alt="">
+                        </div>
+                        <div class="blog-post__text-content text-center">
+                            <h3 class="blog-post__title"><a href="#">How To Take Care of Cloth</a></h3>
+                            <div class="blog-post__meta small-text">
+                                <span class="blog-post__date">2018.10.15</span>
+                                <a href="#" class="text-uppercase blog-post__category">Product</a>
+                            </div>
+                            <p>While we're still waiting on the flying cars, handheld sleep inducers and robot dog walkers Back to the Future Part II promised us, the future of fashion has arrived. At least according to numerous....</p>
+                            <a href="#" class="blog-post__read-more">Read More</a>
+                        </div>
+                    </div><!--/.blog-post-->
+                    <div class="blog-post">
+                        <div class="blog-post__thumb">
+                            <img src="images/blog/blog5.jpg" alt="">
+                        </div>
+                        <div class="blog-post__text-content text-center">
+                            <h3 class="blog-post__title"><a href="#">Fashion With Modern Dress</a></h3>
+                            <div class="blog-post__meta small-text">
+                                <span class="blog-post__date">2018.10.15</span>
+                                <a href="#" class="text-uppercase blog-post__category">Fashion</a>
+                            </div>
+                            <p>Olivier Rousteings Balmain army has apparently found its uniform as the designer inundated his collection with shiny suits. At Sies Marjan, the glare was restricted...</p>
+                            <a href="#" class="blog-post__read-more">Read More</a>
+                        </div>
+                    </div><!--/.blog-post-->
+                    <div class="blog-post">
+                        <div class="blog-post__thumb">
+                            <img src="images/blog/blog6.jpg" alt="">
+                        </div>
+                        <div class="blog-post__text-content text-center">
+                            <h3 class="blog-post__title"><a href="#">Fashion With Modern Dress</a></h3>
+                            <div class="blog-post__meta small-text">
+                                <span class="blog-post__date">2018.10.15</span>
+                                <a href="#" class="text-uppercase blog-post__category">Inspiration</a>
+                            </div>
+                            <p>In combination with hazmat gloves and balaclavas we're anticipating becoming a thing this winter, Raf from Simons provided glimpses at the future of luxury fashion...</p>
+                            <a href="#" class="blog-post__read-more">Read More</a>
+                        </div>
+                    </div><!--/.blog-post-->
+                    <div class="blog-navigaions pdb15">
+                        <a href="#" class="blog-navigaions__previous"></a>
+                        <span class="pdr10"><span class="black-text">1 </span>/ 5</span>
+                        <a href="#" class="blog-navigaions__next"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADISURBVGhD7dM7CsJQFEXRgKCVhWDjGMTKUdj7bZyIs3AOFjb+nYUDUVsrUdB9hQevsAskuY+zYBe5hXBIzEREREREqqhNV1pT3Q5etehGH9qS6zFdupON2ZHGVEU8Zk/ux4T/zIE0piriMUdKZsyJNOafDvULbk5PsjFnyj2mSQ+yHyyzDeVSoxVdSii8kTdNyaUFhREzO3iU3IgkPqeJHTxKbsTYDh7FI0Z28CiMeJFGlKlHYcTQDl41aEmD35OIiIiISDGy7AvcTnyf1/0W7QAAAABJRU5ErkJggg=="></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <aside class="sidebar">
+                        <div class="widget">
+                            <h4 class="widget__title">Search</h4>
+                            <form  id="searchform" class="search-form" action="#">
+                                <input class="form-control search-form__input" type="text" placeholder="Search">
+                                <button type="submit" class="search-form__submit"><i class="la la-search"></i> </button>
+                            </form>
+                        </div><!--/.widget-->
+                        <div class="widget">
+                            <h4 class="widget__title">Populer Post</h4>
+                            <div class="populer-post">
+                                <div class="populer-post__thumb">
+                                    <img src="images/blog/popularpost1.jpg" alt="">
+                                </div>
+                                <div class="populer-post__text-content">
+                                    <h5 class="populer-post__title"><a href="#">Freshen Up to Your Work Wardrobe With These Classic.</a></h5>
+                                    <span class="small-text">2018.10.16</span>
+                                </div>
+                            </div><!--/.populer-post-->
+                            <div class="populer-post">
+                                <div class="populer-post__thumb">
+                                    <img src="images/blog/popularpost2.jpg" alt="">
+                                </div>
+                                <div class="populer-post__text-content">
+                                    <h5 class="populer-post__title"><a href="#">Freshen Up to Your Work Wardrobe With These Classic.</a></h5>
+                                    <span class="small-text">2018.10.16</span>
+                                </div>
+                            </div><!--/.populer-post-->
+                            <div class="populer-post">
+                                <div class="populer-post__thumb">
+                                    <img src="images/blog/popularpost3.jpg" alt="">
+                                </div>
+                                <div class="populer-post__text-content">
+                                    <h5 class="populer-post__title"><a href="#">Freshen Up to Your Work Wardrobe With These Classic.</a></h5>
+                                    <span class="small-text">2018.10.16</span>
+                                </div>
+                            </div><!--/.populer-post-->
+                        </div><!--/.widget-->
+                        <div class="widget">
+                            <h4 class="widget__title">Categories</h4>
+                            <ul>
+                                <li class="cat-item"><a href="#">Shopping</a>2</li>
+                                <li class="cat-item"><a href="#">Fashion</a>3</li>
+                                <li class="cat-item"><a href="#">Inspiration</a>5</li>
+                                <li class="cat-item"><a href="#">Lifestyle</a>2</li>
+                                <li class="cat-item"><a href="#">Travelling</a>1</li>
+                                <li class="cat-item"><a href="#">Tips &amp; Trics</a>3</li>
+		                    </ul>
+                        </div><!--/.widget-->
+                        <div class="widget">
+                            <h4 class="widget__title">Browse Tags</h4>
+                            <div class="tagcloud">
+                                <a href="#" class="tag-cloud-link">Fashion</a>
+                                <a href="#" class="tag-cloud-link">Vacation</a>
+                                <a href="#" class="tag-cloud-link">Summer</a>
+                                <a href="#" class="tag-cloud-link">My Style</a>
+                                <a href="#" class="tag-cloud-link">Typography</a>
+                                <a href="#" class="tag-cloud-link">Clothing</a>
+                                <a href="#" class="tag-cloud-link">Collection</a>
+                                <a href="#" class="tag-cloud-link">Color</a>
+                            </div>
+                        </div><!--/.widget-->
+                        <div class="widget">
+                            <h4 class="widget__title">Archives</h4>
+                            <ul>
+                                <li class="archives-item"><a href="#">December 2018</a>2</li>
+                                <li class="archives-item"><a href="#">November 2018</a>3</li>
+                                <li class="archives-item"><a href="#">September 2017</a>5</li>
+                                <li class="archives-item"><a href="#">November 2016</a>2</li>
+		                    </ul>
+                        </div><!--/.widget-->
+                        <div class="widget">
+                            <h4 class="widget__title">Instagram</h4>
+                            <ul class="widget__instagram">
+                                <li><a href="#"><img src="images/blog/instagram1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/blog/instagram2.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/blog/instagram3.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/blog/instagram4.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/blog/instagram5.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/blog/instagram6.jpg" alt=""></a></li>
+		                    </ul>
+                        </div><!--/.widget-->
+                        <div class="widget">
+                            <h4 class="widget__title">Stay Connected</h4>
+                            <ul class="widget__social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		                    </ul>
+                        </div><!--/.widget-->
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="woomega-footer">
+        <div class="main-footer section-padding">
+            <div class="container">
+                <div class="newslatter2 text-center">
+                    <h2 class="font-w-400 newslatter2__title">Newsletter</h2>
+                    <p class="medium-text">Sign up to stay in the loop</p>
+                    <form class="newsletter-form2" action="index.html" method="post">
+                        <input type="text" class="newsletter-form2__input form-control" placeholder="Enter Your Email">
+                        <input type="submit" class="newsletter-form2__submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area copyright-area--2">
+            <div class="container">
+                <div class="footer-bottom">
+                    <ul class="footer-social-icons footer-social-icons--large">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+                    </ul>
+                    <div class="text-center">
+                        <ul class="footer-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Feature</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <div class="copyright-text mt10">
+                            Copyright @ iGlyphic
+                        </div>
+                    </div>
+                    <ul class="payment-methods-list">
+                        <li><a href="#"><img src="images/paymentmethod/visa.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/paymentmethod/mastercard.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/paymentmethod/paypal.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/paymentmethod/discover.png" alt=""></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <a href="#" id="toTop" class="cd-top"><i class="fa fa-angle-up"></i></a>
+    </footer>
+    <!-- // End Footer  -->
+    <!-- == jQuery Librery == -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- == Bootsrap js File == -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- == Bootsrap Rating == -->
+    <script src="js/bootstrap-rating.min.js"></script>
+    <!-- == mixitup == -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- == Slick == -->
+    <script src="js/slick.min.js"></script>
+    <!-- == Mobile Menu == -->
+    <script src="js/mobile-menu.js"></script>
+    <!-- == custom Js File == -->
+    <script src="js/custom.js"></script>
+    </body>
+</html>

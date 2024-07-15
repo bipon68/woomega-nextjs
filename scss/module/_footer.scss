@@ -1,0 +1,247 @@
+/* -----------------------------------
+** Footer
+-------------------------------------*/
+.main-footer{
+    border-top: 1px solid $border;
+}
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.footer-link{
+    li{
+        margin-bottom: 13px;
+        a{
+            color: $bcolor;
+            &:hover{
+                color: $base;
+            }
+        }
+    }
+}
+.newsletter-form{
+    position: relative;
+    &__input{
+        height: 40px;
+        background: $full-black;
+        border-radius: 0;
+        color: $white;
+        box-shadow: 0;
+        border: 0;
+        padding:0 65px 0 20px;
+    }
+    ::placeholder{
+        color: rgba(255,255,255,.5);
+    }
+    &__submit{
+        height: 34px;
+        width:57px;
+        text-align: center;
+        background: $white;
+        border:0;
+        border-radius: 0;
+        position: absolute;
+        right: 3px;
+        top:3px;
+        font-size: 24px;
+        i{
+            transform: rotate(-45deg);
+        }
+    }
+}
+.copyright-area{
+    border-top: 1px solid $border;
+}
+.footer-bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    @include breakpoint(max_md){
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-menu{
+        li{
+            display: inline-block;
+            padding: 3px 7px;
+            a{
+                color: $bcolor;
+                &:hover{
+                    color: $base;
+                }
+            }
+            &:first-child{
+                padding-left: 0;
+            }
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+    }
+}
+.copyright-area{
+    padding:32px 0;
+    &--2{
+        .footer-bottom{
+            align-items: center;
+        }
+    }
+}
+.footer-social-icons{
+    li{
+        display: inline-block;
+        padding:3px 5px;
+        a{
+            color: $bcolor;
+            &:hover{
+                color: $base;
+            }
+        }
+        &:first-child{
+            padding-left: 0;
+        }
+        &:last-child{
+            padding-right: 0;
+        }
+    }
+    &--large{
+        li{
+            a{
+                font-size: 24px;
+            }
+        }
+    }
+}
+.copyright-text{
+    padding:3px 5px;
+}
+.widget--footer{
+    margin-bottom: 15px;
+}
+
+
+.cd-top {
+  position: fixed;
+  bottom: -100%;
+  right: 30px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  color: #fff;
+  background: $base;
+  opacity: 1;
+  border-radius: 100%;
+  transition: 1s;
+  z-index: 88;
+}
+
+.cd-top:hover, .cd-top:focus {
+  color: #fff;
+}
+
+.backtop-top-show {
+  bottom: 20px;
+}
+/* ---------------- Footer 2 ----------------*/
+.newslatter2{
+    &__title{
+        margin-bottom: 13px;
+    }
+}
+.newsletter-form2{
+    display: flex;
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    &__input{
+        border-width:0 0 1px 0;
+        border-color: $border;
+        border-style: solid;
+        box-shadow: none;
+        border-radius: 0;
+        height: 40px;
+        margin-right: 35px;
+    }
+    &__submit{
+        border-width:0 0 1px 0;
+        border-color: $border;
+        border-style: solid;
+        box-shadow: none;
+        border-radius: 0;
+        color: $black;
+        font-size: 16px;
+        background: transparent;
+        &:hover{
+            border-color: $base;
+        }
+    }
+}
+.blog-navigaions{
+    &__previous{
+        position: relative;
+        width:43px;
+        display: inline-block;
+        &:before{
+            position: absolute;
+            left:0;
+            top:-5px;
+            width:25px;
+            height: 1px;
+            background: #7f7f82;
+            content: '';
+        }
+    }
+    &__next{
+        margin-top: -5px;
+        img{
+            width:35px;
+        }
+    }
+}
+.payment-methods-list{
+    li{
+        display: inline-block;
+        padding-right: 5px;
+        &:last-child{
+            padding-right: 0;
+        }
+        a{
+            opacity: 0.5;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------
+** End Feature
+-------------------------------------*/

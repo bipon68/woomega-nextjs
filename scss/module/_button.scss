@@ -1,0 +1,80 @@
+/* -----------------------------------
+** Button
+-------------------------------------*/
+.btn{
+    border-radius: 0;
+    border:0;
+    background: transparent;
+    color: $white;
+    font-size: 16px;
+    display: inline-block;
+    min-width: 175px;
+    white-space: nowrap;
+    font-family: $rb;
+    padding:0 15px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 50px;
+    background: $base;
+    position: relative;
+    text-overflow: ellipsis;
+    transition: .3s;
+    span{
+        position: relative;
+        z-index: 1;
+    }
+    &:after,&:before{
+        position: absolute;
+        height: 100%;
+        top:0;
+        z-index: 0;
+        background: $black;
+        transition: .3s;
+        content: '';
+    }
+    &:before{
+        left:0;
+        width:5px;
+    }
+
+    &:after{
+        left:50%;
+        width:0;
+    }
+    &:hover,&.active{
+        background: $base;
+        color: $white;
+        &:before{
+            width:50%;
+
+        }
+        &:after{
+            width:50%;
+        }
+
+    }
+    &--black-bg{
+        background: $black;
+    }
+    &--fluid{
+        display: block;
+        width:100%;
+    }
+    &--white-bg{
+        background: $white;
+        color: $black;
+        &:before{
+            display: none;
+        }
+        &:after{
+            display: none;
+        }
+        &:hover{
+            background: $white;
+            color: $black;
+        }
+    }
+}
+/* -----------------------------------
+** End Button
+-------------------------------------*/

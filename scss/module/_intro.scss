@@ -1,0 +1,28 @@
+/* -----------------------------------
+** Intro
+-------------------------------------*/
+.woomega-intro{
+    position: relative;
+    min-height: 90px;
+    &__icon{
+        position: absolute;
+        left: 0;
+        top:9px;
+        svg{
+            width: 70px;
+            fill:$bcolor;
+        }
+    }
+    &__text-content{
+        padding-left: 90px;
+        p{
+            font-weight: 500;
+        }
+    }
+    &__title{
+        font-weight: 500;
+    }
+}
+/* -----------------------------------
+** End Intro
+-------------------------------------*/

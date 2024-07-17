@@ -1,7 +1,12 @@
 import React from "react";
+import WebMenu from "../features/navbar/WebMenu";
 
 const Homepage = () => {
-  return <div>Homepage</div>;
+  return (
+    <div>
+      <WebMenu />
+    </div>
+  );
 };
 
 export default Homepage;

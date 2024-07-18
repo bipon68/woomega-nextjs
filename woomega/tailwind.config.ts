@@ -8,6 +8,38 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        success: "#22C55E",
+        warning: "#FACC15",
+        error: "#F75555",
+        primary: "#130F40",
+        "primary-900": "#2B2754",
+        "primary-700": "#5A577A",
+        "primary-500": "#8987A0",
+        "primary-300": "#B9B7C6",
+        "primary-100": "#E8E7EC",
+        "primary-50": "#F3F3F5",
+        secondary: "#AE00B9",
+        "secondary-700": "#C74DCE",
+        "secondary-500": "#D780DC",
+        "secondary-300": "#E7B3EA",
+        "secondary-200": "#EFCCF1",
+        "secondary-100": "#F7E6F8",
+        "secondary-50": "#FBF2FB",
+      },
+      screens: {
+        screens: {
+          xs: "425px",
+          sm: "576px",
+          md: "768px",
+          lg: "991px",
+          xl: "1199px",
+          "2xl": "1399px",
+          "3xl": "1599px",
+          "4xl": "1799px",
+          "5xl": "1999px",
+        },
+      },
       spacing: {
         1.5: "0.375rem",
         2.5: "0.625rem",

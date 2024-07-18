@@ -1,7 +1,12 @@
-import Image from "next/image";
+import React from "react";
+import Homepage from "../../woomega/program/HomePage";
 
-export default function Home() {
+const page = () => {
   return (
-    <div className="w-[100vw] h-[100vh] bg-red-500"></div>
+    <div>
+      <Homepage />
+    </div>
   );
-}
+};
+
+export default page;

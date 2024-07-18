@@ -1,5 +1,4 @@
-import Homepage from "@/woomega-nextjs/programs/components/Homepage/Homepage";
-
+import Homepage from "@/woomega-nextjs/programs/Homepage";
 
 export default function Home() {
   return (
@@ -7,4 +6,4 @@ export default function Home() {
       <Homepage />
     </div>
   );
-} 
+}

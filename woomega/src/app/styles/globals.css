@@ -2,8 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer components {
+  /* container */
+  @media (min-width: 425px) {
+    .container {
+      max-width: 100%;
+      padding: 0 15px;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+
+  @media (min-width: 991px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+
+  @media (min-width: 1199px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+
+  @media (min-width: 1399px) {
+    .container {
+      max-width: 1240px;
+    }
+  }
+
+  @media (min-width: 1599px) {
+    .container {
+      max-width: 1320px;
+    }
+  }
 }

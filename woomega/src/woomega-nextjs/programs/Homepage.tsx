@@ -1,11 +1,15 @@
 import React from "react";
 import LandingPage from "./components/LandingPage/LandingPage";
+import OfferPage from "./components/OfferPage/OfferPage";
+import ArrivalPage from "./components/ArrivalPage/ArrivalPage";
 
 function Homepage() {
   return (
-    <div className="w-full h-screen bg-slate-100">
+    <div className="">
       <div className="">
         <LandingPage />
+        <OfferPage />
+        <ArrivalPage />
       </div>
     </div>
   );

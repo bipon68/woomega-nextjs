@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Webmenu = () => {
   return (
-    <div className="w-full h-full flex items-center gap-12">
+    <div className="h-full flex items-center gap-12">
       <div>
         <Image src={Logo.MainLogo} alt="" />
       </div>

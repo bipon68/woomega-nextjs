@@ -5,12 +5,12 @@ import Image from "next/image";
 
 const OfferPage = () => {
   return (
-    <div className=" h-100 flex items-center">
-      <div className="flex flex-wrap gap-10">
+    <div className="w-full py-20 flex items-center ">
+      <div className="flex flex-wrap justify-between gap-10">
         {List.map((item) => (
-          <div key={item.id} className=" w-86 ">
-            <Link href={""} className="flex ">
-              <div className=" flex gap-6 ">
+          <div key={item.id} className=" w-88">
+            <Link href={""}>
+              <div className=" flex gap-6">
                 <Image src={item.icon} alt="" className=" size-20" />
                 <div className=" grid gap-2">
                   <div className=" font-semibold text-xl">{item.title}</div>

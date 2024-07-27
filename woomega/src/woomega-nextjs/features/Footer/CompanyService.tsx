@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const CompanyService = () => {
   return (
-    <div>
+    <div className=" w-68">
       <span className=" font-semibold text-2xl">Customar Service</span>
       <div>
         {service.map((item) => (

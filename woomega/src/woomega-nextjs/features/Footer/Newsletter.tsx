@@ -2,7 +2,7 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <div>
+    <div className=" w-68">
       <span className=" font-semibold text-2xl">Newsletter Signup</span>
       <div>
         <p className=" text-gray-500">

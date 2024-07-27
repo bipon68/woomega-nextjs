@@ -8,7 +8,7 @@ const CopyrightSection = () => {
   return (
     <>
       <div>
-        <div className=" h-18 border-t flex justify-between text-gray-500 items-center">
+        <div className=" h-24 border-t flex justify-between text-gray-500 items-center">
           <div className=" flex gap-3">
             {menu.map((item) => (
               <div key={item.id}>

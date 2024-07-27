@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const CompanyDetsails = () => {
   return (
-    <div>
+    <div className=" w-68">
       <span>
         <Image src={Logo.MainLogo} alt="" />
       </span>

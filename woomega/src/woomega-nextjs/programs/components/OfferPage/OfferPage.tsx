@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const OfferPage = () => {
   return (
-    <div className="container">
-      <div>
+    <div className="">
+      <div className=" flex">
         {List.map((item) => (
           <div key={item.id}>
             <Link href={""}>

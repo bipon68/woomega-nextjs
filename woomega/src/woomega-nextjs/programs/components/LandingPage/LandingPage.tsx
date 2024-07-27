@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const LandingPage = () => {
   return (
-    <div className="container w-full mt-20 bg-slate-100">
+    <div className=" w-full mt-20 bg-slate-100">
       <div className=" w-full flex items-center ">
         <div className=" grid">
           <span className=" text-4xl"> Summer Collection</span>

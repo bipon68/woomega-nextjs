@@ -1,3 +1,5 @@
+import PageSection from "@/woomega-nextjs/programs/components/PageSection/PageSection";
+
 export const menu = [
   {
     id: "home",

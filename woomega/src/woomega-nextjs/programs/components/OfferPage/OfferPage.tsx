@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const OfferPage = () => {
   return (
-    <div className="w-full py-20 flex items-center ">
+    <div className="w-full py-20 flex items-center justify-center">
       <div className="flex flex-wrap justify-between gap-10">
         {List.map((item) => (
           <div key={item.id} className=" w-88">

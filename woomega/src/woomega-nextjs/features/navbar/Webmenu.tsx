@@ -7,10 +7,10 @@ import Link from "next/link";
 const Webmenu = () => {
   return (
     <div className="h-full flex items-center gap-12">
-      <div>
+      <div className="hidden md:block">
         <Image src={Logo.MainLogo} alt="" />
       </div>
-      <div className=" flex gap-9">
+      <div className="flex gap-9">
         {menu.map((item) => (
           <div key={item.id}>
             <Link href={""}>{item.title}</Link>

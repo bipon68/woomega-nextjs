@@ -1,8 +1,8 @@
-import mail from "@/assets/Icon/contactIcon/mail-icon.svg";
 import github from "@/assets/Icon/contactIcon/github-icon.svg";
 import instagram from "@/assets/Icon/contactIcon/instagram-icon.svg";
 import twitter from "@/assets/Icon/contactIcon/twitter-icon.svg";
 import facebookIcon from "@/assets/Icon/contactIcon/facebook-icon.svg";
+import mail from "@/assets/Icon/contactIcon/mail-icon.svg";
 
 export const contactList = [
   {
@@ -31,7 +31,7 @@ export const contactList = [
   },
   {
     id: "mail",
-    title: "Email",
+    title: "Mail",
     iocn: mail,
     path: "/mail",
   },

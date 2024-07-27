@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const CompanyStores = () => {
   return (
-    <div className=" w-68">
-      <span className=" font-semibold text-2xl">Our Stores</span>
+    <div className=" w-68 py-4">
+      <span className="flex py-4 font-semibold text-2xl">Our Stores</span>
       <div>
         {stores.map((item) => (
           <div key={item.id}>

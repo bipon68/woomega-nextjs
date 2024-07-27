@@ -2,8 +2,10 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <div className=" w-68">
-      <span className=" font-semibold text-2xl">Newsletter Signup</span>
+    <div className=" w-68 py-4">
+      <span className="flex py-4 font-semibold text-2xl">
+        Newsletter Signup
+      </span>
       <div>
         <p className=" text-gray-500">
           Delivering the latest product trends & industry news straight to your

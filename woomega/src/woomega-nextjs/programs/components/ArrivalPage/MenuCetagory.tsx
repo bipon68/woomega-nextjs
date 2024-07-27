@@ -5,8 +5,8 @@ import FilterSection from "./FilterSection";
 
 const MenuCetagory = () => {
   return (
-    <div className="h-16 items-center flex justify-between">
-      <div className=" flex gap-4 ">
+    <div className=" py-9 items-center flex justify-between">
+      <div className=" flex flex-wrap gap-4 ">
         {ArrivalMenuList.map((item) => (
           <div key={item.id} className=" flex gap-1">
             <Link href={""} className="font-medium text-lg text-gray-500">

@@ -7,7 +7,7 @@ import Webmenu from "./Webmenu";
 function Navbar() {
   return (
     <div className=" w-full h-20 px-8 top-0 bg-white flex  justify-between fixed">
-      <div>
+      <div className=" hidden md:block">
         <Webmenu />
       </div>
       <div className="size-36 flex py-7 gap-4">

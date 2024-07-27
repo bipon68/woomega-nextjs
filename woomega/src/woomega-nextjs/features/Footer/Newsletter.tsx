@@ -3,7 +3,7 @@ import React from "react";
 const Newsletter = () => {
   return (
     <div>
-      <span>Newsletter Signup</span>
+      <span className=" font-semibold text-2xl">Newsletter Signup</span>
       <div>
         <p className=" text-gray-500">
           Delivering the latest product trends & industry news straight to your

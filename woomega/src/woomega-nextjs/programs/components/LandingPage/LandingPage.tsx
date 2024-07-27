@@ -6,13 +6,13 @@ import Link from "next/link";
 const LandingPage = () => {
   return (
     <div className=" w-full mt-20 bg-slate-100">
-      <div className=" w-full flex items-center ">
+      <div className="flex justify-items-center items-center ">
         <div className=" grid">
           <span className=" text-4xl"> Summer Collection</span>
           <span className=" text-5xl">50% Off Everything</span>
           <Link
             href={""}
-            className="w-36 h-10 flex items-center text-center justify-center text-2xl bg-yellow-500 "
+            className="w-36 h-10 flex items-center text-center justify-center text-2xl bg-[#fdbf70] "
           >
             Shop Now
           </Link>

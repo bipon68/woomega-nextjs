@@ -48,7 +48,25 @@ const config: Config = {
         15: "15px",
         20: "20px",
         30: "30px",
-      },  
+      },
+      keyframes: {
+        zoomIn: {
+          from: {
+            opacity: '0',
+            transform: 'scale3d(0.3, 0.3, 0.3)',
+          },
+          '50%': {
+            opacity: '1',
+          },
+          to: {
+            opacity: '1',
+            transform: 'scale3d(1, 1, 1)',
+          },
+        },
+      },
+      animation: {
+        zoomIn: 'zoomIn 500ms ease-in-out both',
+      },
     },
   },
   plugins: [],

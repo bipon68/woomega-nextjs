@@ -6,7 +6,7 @@ import ProductsSection from "./ProductsSection";
 
 const ArrivalPage = () => {
   return (
-    <div>
+    <div className="container my-0 mx-auto">
       <ArrivalHeader />
       <MenuCetagory />
       <ProductsSection />

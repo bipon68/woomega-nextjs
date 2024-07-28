@@ -6,16 +6,16 @@ import Webmenu from "./Webmenu";
 
 function Navbar() {
   return (
-    <div className=" w-full h-20 px-8 top-0 bg-white flex  justify-between fixed">
+    <div className=" w-full h-20 px-8 top-0 bg-white flex items-center justify-between fixed ">
       <div className=" hidden md:block">
         <Webmenu />
       </div>
-      <div className="size-36 flex py-7 gap-4">
+      <div className="w-36 flex gap-4">
         <Link href={""}>
           <Image src={Icon.searchIcon} alt="" />
         </Link>
         <Link href={""}>
-          <Image src={Icon.fevoriteIcon} alt="" />
+          <Image src={Icon.favouriteIcon} alt="" />
         </Link>
         <Link href={""}>
           <Image src={Icon.cartIcon} alt="" />

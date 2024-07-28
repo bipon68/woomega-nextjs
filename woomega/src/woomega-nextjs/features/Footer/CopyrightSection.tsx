@@ -7,7 +7,8 @@ import Image from "next/image";
 const CopyrightSection = () => {
   return (
     <div>
-      <div className=" py-9 border-t grid md:flex justify-center md:justify-between text-gray-500 items-center">
+      <hr />
+      <div className="container py-9 grid md:flex justify-center md:justify-between text-gray-500 items-center my-0 mx-auto">
         <div className=" flex gap-3">
           {menu.map((item) => (
             <div key={item.id}>

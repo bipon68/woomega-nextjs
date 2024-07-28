@@ -1,7 +1,7 @@
-import searchIcon from "@/assets/Icon/search-Icon.svg";
+import searchIcon from "@/assets/Icon/search-icon.svg";
 import cartIcon from "@/assets/Icon/cart-Icon.svg";
-import fevoriteIcon from "@/assets/Icon/love-Icon.svg";
-import profileIcon from "@/assets/Icon/profile-Icon.svg";
+import favouriteIcon from "@/assets/Icon/favourite-icon.svg";
+import profileIcon from "@/assets/Icon/profile-icon.svg";
 import vanImg from "@/assets/Image/van.jpg";
 import facebookIcon from "@/assets/Icon/contactIcon/facebook-icon.svg";
 import github from "@/assets/Icon/contactIcon/github-icon.svg";
@@ -12,7 +12,7 @@ import twitter from "@/assets/Icon/contactIcon/twitter-icon.svg";
 export const Icon = {
   searchIcon,
   cartIcon,
-  fevoriteIcon,
+  favouriteIcon,
   profileIcon,
 };
 

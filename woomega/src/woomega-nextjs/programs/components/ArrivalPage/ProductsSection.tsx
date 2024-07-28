@@ -5,7 +5,7 @@ import React from "react";
 
 const ProductsSection = () => {
   return (
-    <div className=" flex flex-wrap gap-7 text-center justify-center">
+    <div className="container flex flex-wrap gap-7 text-center justify-center my-0 mx-auto">
       {ProductsList.map((item) => (
         <div key={item.id} className=" flex gap-1">
           <Link href={""}>

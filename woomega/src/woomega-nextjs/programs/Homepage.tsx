@@ -6,11 +6,9 @@ import ArrivalPage from "./components/ArrivalPage/ArrivalSection";
 function Homepage() {
   return (
     <div className="">
-      <div className="">
-        <LandingPage />
-        <OfferPage />
-        <ArrivalPage />
-      </div>
+      <LandingPage />
+      <OfferPage />
+      <ArrivalPage />
     </div>
   );
 }

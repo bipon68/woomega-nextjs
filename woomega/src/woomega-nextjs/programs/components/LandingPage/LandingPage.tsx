@@ -12,7 +12,7 @@ const LandingPage = () => {
           <span className=" text-3xl md:text-5xl">50% Off Everything</span>
           <Link
             href={""}
-            className="w-36 h-10 flex items-center text-center justify-center text-2xl bg-primary btn"
+            className="flex items-center text-center justify-center btn"
           >
             <span>Shop Now</span>
           </Link>

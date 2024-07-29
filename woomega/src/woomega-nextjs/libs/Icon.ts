@@ -29,6 +29,10 @@ import heartActive from "@/assets/Icon/productSecIcon/productSecActiveIcon/icon-
 import cartActive from "@/assets/Icon/productSecIcon/productSecActiveIcon/icon-cart-fill-active.svg"
 import eyeActive from "@/assets/Icon/productSecIcon/productSecActiveIcon/icon-view-fill-active.svg"
 
+// searchModal Icon 
+
+import modalSearchIcon from "@/assets/Icon/SearchIcon/search-icon.svg"
+
 
 export const navIcon = {
   searchIcon,
@@ -61,4 +65,8 @@ export const productActiveIcon ={
   eyeActive,
   cartActive,
   heartActive,
+}
+
+export const searchModalIcon ={
+  modalSearchIcon
 }

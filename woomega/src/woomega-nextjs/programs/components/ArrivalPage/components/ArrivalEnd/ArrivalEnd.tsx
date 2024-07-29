@@ -8,7 +8,7 @@ const ArrivalEnd = () => {
         href={""}
         className="w-36 h-10  flex items-center text-center justify-center text-2xl bg-[#fdbf70] btn"
       >
-        Learn More
+        <span>Learn More</span>
       </Link>
     </div>
   );

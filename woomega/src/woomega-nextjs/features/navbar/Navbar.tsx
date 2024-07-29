@@ -6,7 +6,7 @@ import Webmenu from "./Webmenu";
 
 function Navbar() {
   return (
-    <div className=" w-full h-20 px-8 top-0 bg-white flex items-center justify-between fixed ">
+    <div className=" w-full h-20 px-8 top-0 bg-white flex items-center justify-between fixed z-50">
       <div className=" hidden md:block">
         <Webmenu />
       </div>

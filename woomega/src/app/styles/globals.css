@@ -109,30 +109,3 @@
 .btn.active:after {
   width: 50%;
 }
-
-.btn--black-bg {
-  background: #22222b;
-}
-
-.btn--fluid {
-  display: block;
-  width: 100%;
-}
-
-.btn--white-bg {
-  background: #fff;
-  color: #22222b;
-}
-
-.btn--white-bg:before {
-  display: none;
-}
-
-.btn--white-bg:after {
-  display: none;
-}
-
-.btn--white-bg:hover {
-  background: #fff;
-  color: #22222b;
-}

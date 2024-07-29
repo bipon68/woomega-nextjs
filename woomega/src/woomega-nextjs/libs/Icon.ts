@@ -1,18 +1,39 @@
-import searchIcon from "@/assets/Icon/search-Icon.svg";
-import cartIcon from "@/assets/Icon/cart-Icon.svg";
-import fevoriteIcon from "@/assets/Icon/love-Icon.svg";
-import profileIcon from "@/assets/Icon/profile-Icon.svg";
+//Navigation Icons
+import searchIcon from "@/assets/Icon/navIcons/search-icon.svg"
+import cartIcon from "@/assets/Icon/navIcons/cart-Icon.svg"
+import favouriteIcon from "@/assets/Icon/navIcons/favourite-icon.svg"
+import profileIcon from "@/assets/Icon/navIcons/profile-icon.svg"
+
+
+//OfferPage Icon
+
 import vanImg from "@/assets/Image/van.jpg";
+
+//contact Icons
 import facebookIcon from "@/assets/Icon/contactIcon/facebook-icon.svg";
 import github from "@/assets/Icon/contactIcon/github-icon.svg";
 import instagram from "@/assets/Icon/contactIcon/instagram-icon.svg";
 import mail from "@/assets/Icon/contactIcon/mail-icon.svg";
 import twitter from "@/assets/Icon/contactIcon/twitter-icon.svg";
 
-export const Icon = {
+//product section icons 
+
+import compare from "@/assets/Icon/productSecIcon/icon-double-arrow.svg"
+import favouriteFill from "@/assets/Icon/productSecIcon/icon-heart-fill.svg"
+import cartFill from "@/assets/Icon/productSecIcon/icon-cart-fill.svg"
+import eyeFill from "@/assets/Icon/productSecIcon/icon-eye-fill.svg"
+
+//product section Active Icon
+import compareActive from "@/assets/Icon/productSecIcon/productSecActiveIcon/icon-compare-fill-active.svg"
+import heartActive from "@/assets/Icon/productSecIcon/productSecActiveIcon/icon-heart-fill-active.svg"
+import cartActive from "@/assets/Icon/productSecIcon/productSecActiveIcon/icon-cart-fill-active.svg"
+import eyeActive from "@/assets/Icon/productSecIcon/productSecActiveIcon/icon-view-fill-active.svg"
+
+
+export const navIcon = {
   searchIcon,
   cartIcon,
-  fevoriteIcon,
+  favouriteIcon,
   profileIcon,
 };
 
@@ -27,3 +48,17 @@ export const ContactIcon = {
   mail,
   twitter,
 };
+
+export const productIcon = {
+  compare,
+  favouriteFill,
+  eyeFill,
+  cartFill,
+};
+
+export const productActiveIcon ={
+  compareActive,
+  eyeActive,
+  cartActive,
+  heartActive,
+}

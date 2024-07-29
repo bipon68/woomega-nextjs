@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* container */
+  @media (min-width: 425px) {
+    .container {
+      max-width: 100%;
+      padding: 0 15px;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+
+  @media (min-width: 991px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+
+  @media (min-width: 1199px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+
+  @media (min-width: 1399px) {
+    .container {
+      max-width: 1240px;
+    }
+  }
+
+  @media (min-width: 1599px) {
+    .container {
+      max-width: 1320px;
+    }
+  }
+  /* btm--start */
+  .btn {
+    @apply bg-transparent text-white text-base inline-block min-w-[175px] whitespace-nowrap py-0 px-4 font-medium w-36 h-13 leading-[50px] bg-primary relative text-ellipsis duration-500;
+  }
+  .btn span {
+    @apply relative z-[1];
+  }
+
+  .btn:after,
+  .btn:before {
+    @apply absolute h-full top-0 z-0 bg-[#22222b] duration-500;
+    content: "";
+  }
+
+  .btn:before {
+    left: 0;
+    width: 5px;
+  }
+
+  .btn:after {
+    left: 50%;
+    width: 0;
+  }
+
+  .btn:hover,
+  .btn.active {
+    background: #fdbf70;
+    color: #fff;
+  }
+
+  .btn:hover:before,
+  .btn.active:before {
+    width: 50%;
+  }
+
+  .btn:hover:after,
+  .btn.active:after {
+    width: 50%;
+  }
+  /* btn--end */
+  /* underline--hover--start */
+  .under-line::before {
+    content: "";
+    @apply absolute -bottom-2 left-0 w-[0%] h-[2px] bg-primary transition-all ease-in-out duration-500;
+  }
+  .under-line:hover::before {
+    @apply w-full;
+  }
+}

@@ -1,16 +1,17 @@
 import React from "react";
-import LandingPage from "./components/LandingPage/LandingPage";
-import OfferPage from "./components/OfferPage/OfferPage";
-import ArrivalPage from "./components/ArrivalPage/ArrivalSection";
+import LandingPage from "./components/Home/LandingPage/LandingPage";
+import OfferPage from "./components/Home/OfferPage/OfferPage";
+import ArrivalPage from "./components/Home/ArrivalPage/ArrivalSection";
+
+
 
 function Homepage() {
   return (
     <div className="">
-      <div className="">
-        <LandingPage />
-        <OfferPage />
-        <ArrivalPage />
-      </div>
+      <LandingPage />
+      <OfferPage />
+      <ArrivalPage />
+
     </div>
   );
 }

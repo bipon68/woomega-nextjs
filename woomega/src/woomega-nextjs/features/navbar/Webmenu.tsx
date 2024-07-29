@@ -10,10 +10,10 @@ const Webmenu = () => {
       <div className="hidden md:block">
         <Image src={Logo.MainLogo} alt="" />
       </div>
-      <div className="flex gap-9">
+      <div className="flex gap-9 ">
         {menu.map((item) => (
-          <div key={item.id}>
-            <Link href={""}>{item.title}</Link>
+          <div key={item.id} className="relative under-line">
+            <Link href={item.path}>{item.title}</Link>
           </div>
         ))}
       </div>

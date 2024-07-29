@@ -7,8 +7,8 @@ import Newsletter from "./Newsletter";
 
 const Footer = () => {
   return (
-    <div className="  border-t items-center ">
-      <div className=" w-full py-20 flex flex-wrap gap-0 justify-center">
+    <div className=" border-t items-center bottom-0">
+      <div className="container w-full py-20 flex flex-wrap gap-0 justify-between my-0 mx-auto">
         <CompanyDetsails />
         <CompanyService />
         <CompanyStores />

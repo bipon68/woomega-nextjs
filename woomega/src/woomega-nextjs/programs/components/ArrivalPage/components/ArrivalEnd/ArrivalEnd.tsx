@@ -6,7 +6,7 @@ const ArrivalEnd = () => {
     <div className="py-24">
       <Link
         href={""}
-        className="w-36 h-10  flex items-center text-center justify-center text-2xl bg-[#fdbf70] "
+        className="w-36 h-10  flex items-center text-center justify-center text-2xl bg-[#fdbf70] btn"
       >
         Learn More
       </Link>

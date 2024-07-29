@@ -6,17 +6,18 @@ import { productActionIcon } from './productActionArr'
 import Image from 'next/image'
 
 function ProductAction() {
-
-    const [hoverON, setHoverOn] = useState(null);
+    const [hoverOn, setHoverOn] = useState<any | null>(null);
 
     return (
-        <div className='size-6'>
+        <div className='size-full flex flex-col gap-2'>
             {productActionIcon.map((item, index: any) => (
                 <div key={item.id}
-                    className=''
+                    className='bg-white p-1 transition-all ease-in-out duration-500 hover:bg-secondary size-8  '
                     onMouseEnter={() => setHoverOn(index)}
                     onMouseLeave={() => setHoverOn(null)}>
-                    <Link href={item.path}><Image src={hoverON === index ? item.activeIcon : item.icon} alt='' className='' /></Link>
+                    <Link href={item.path}>
+                        <Image src={hoverOn === index ? item.icon : item.activeIcon} alt='' className='' />
+                    </Link>
                 </div>)
             )}
         </div>

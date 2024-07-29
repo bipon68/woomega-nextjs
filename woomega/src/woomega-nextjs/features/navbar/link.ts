@@ -19,7 +19,7 @@ export const menu = [
   {
     id: "page",
     title: "PAGE",
-    path: "/page",
+    path: "/Page",
   },
   {
     id: "contact",

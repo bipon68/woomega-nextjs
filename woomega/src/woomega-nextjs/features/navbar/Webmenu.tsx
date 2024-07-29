@@ -13,7 +13,7 @@ const Webmenu = () => {
       <div className="flex gap-9">
         {menu.map((item) => (
           <div key={item.id}>
-            <Link href={""}>{item.title}</Link>
+            <Link href={item.path}>{item.title}</Link>
           </div>
         ))}
       </div>

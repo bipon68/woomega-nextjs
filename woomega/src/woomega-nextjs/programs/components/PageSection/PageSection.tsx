@@ -3,6 +3,7 @@ import AboutPage from "./AboutPage/AboutPage";
 import StoriesSection from "./StoriesSection/StoriesSection";
 import FeaturedSec from "./FeaturedSec/FeaturedSec";
 import FindSection from "./FindSection/FindSection";
+import PartnerSection from "./PartnerSection/PartnerSection";
 
 const PageSection = () => {
   return (
@@ -12,6 +13,7 @@ const PageSection = () => {
         <StoriesSection />
         <FeaturedSec />
         <FindSection />
+        <PartnerSection />
       </div>
     </div>
   );

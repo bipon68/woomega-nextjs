@@ -7,7 +7,11 @@ const FindSection = () => {
   return (
     <div className=" h-[60vh]">
       <div className="">
-        <Image src={aboutPageimg.findbg} alt="" className=" absolute -z-10" />
+        <Image
+          src={aboutPageimg.findbg}
+          alt=""
+          className="h-[60vh] absolute -z-10"
+        />
         <div className="h-[60vh] flex items-center justify-center text-center relative z-10">
           <div className="  grid gap-9">
             <div className=" text-5xl font-semibold">

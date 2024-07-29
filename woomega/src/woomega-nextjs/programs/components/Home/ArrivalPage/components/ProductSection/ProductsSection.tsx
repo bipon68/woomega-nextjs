@@ -1,6 +1,6 @@
-'use client'
+"use client";
 
-import { ProductsList } from "@/woomega-nextjs/utils/Link/list";
+import { ProductsList } from "@/woomega-nextjs/libs/Link/list";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
@@ -13,9 +13,12 @@ const ProductsSection = () => {
   }, []);
 
   return (
-    <div className='flex flex-wrap gap-7 text-center justify-center'>
+    <div className="flex flex-wrap gap-7 text-center justify-center">
       {ProductsList.map((item) => (
-        <div key={item.id} className={`flex gap-1 ${loaded ? "animate-zoomIn" : "opacity-0"}`}>
+        <div
+          key={item.id}
+          className={`flex gap-1 ${loaded ? "animate-zoomIn" : "opacity-0"}`}
+        >
           <Link href="">
             <div>
               <Image src={item.img} alt="" />

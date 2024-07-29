@@ -1,10 +1,11 @@
 import React from "react";
+import AboutPage from "./AboutPage/AboutPage";
 
 const PageSection = () => {
   return (
     <div>
       <div>
-        <div><h1>Hello</h1></div>
+        <AboutPage />
       </div>
     </div>
   );

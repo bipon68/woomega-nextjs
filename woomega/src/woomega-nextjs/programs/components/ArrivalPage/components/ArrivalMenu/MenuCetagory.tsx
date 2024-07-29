@@ -1,7 +1,7 @@
 import React from "react";
-import { ArrivalMenuList } from "./components/ArrivalMenuList";
 import Link from "next/link";
-import FilterSection from "./FilterSection";
+import FilterSection from "../FilterSection/FilterSection";
+import { ArrivalMenuList } from "./ArrivalMenuList";
 
 const MenuCetagory = () => {
   return (

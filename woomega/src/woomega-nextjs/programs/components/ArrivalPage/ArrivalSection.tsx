@@ -1,8 +1,9 @@
 import React from "react";
-import ArrivalHeader from "./ArrivalHeader";
-import MenuCetagory from "./MenuCetagory";
-import ArrivalEnd from "./ArrivalEnd";
-import ProductsSection from "./ProductsSection";
+import ArrivalHeader from "./components/ArrivalHeader/ArrivalHeader";
+import MenuCetagory from "./components/ArrivalMenu/MenuCetagory";
+import ProductsSection from "./components/ProductSection/ProductsSection";
+import ArrivalEnd from "./components/ArrivalEnd/ArrivalEnd";
+
 
 const ArrivalPage = () => {
   return (

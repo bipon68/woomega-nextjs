@@ -48,7 +48,7 @@
   }
   /* btm--start */
   .btn {
-    @apply bg-transparent text-white text-base inline-block min-w-[175px] whitespace-nowrap py-0 px-4 font-medium w-36 h-13 leading-[50px] bg-primary relative text-ellipsis duration-[0.3s];
+    @apply bg-transparent text-white text-base inline-block min-w-[175px] whitespace-nowrap py-0 px-4 font-medium w-36 h-13 leading-[50px] bg-primary relative text-ellipsis duration-500;
   }
   .btn span {
     @apply relative z-[1];
@@ -56,7 +56,7 @@
 
   .btn:after,
   .btn:before {
-    @apply absolute h-full top-0 z-0 bg-[#22222b] duration-[0.3s];
+    @apply absolute h-full top-0 z-0 bg-[#22222b] duration-500;
     content: "";
   }
 
@@ -89,7 +89,7 @@
   /* underline--hover--start */
   .under-line::before {
     content: "";
-    @apply absolute -bottom-2 left-0 w-[0%] h-[2px] bg-primary transition-all ease-in-out duration-[0.3s];
+    @apply absolute -bottom-2 left-0 w-[0%] h-[2px] bg-primary transition-all ease-in-out duration-500;
   }
   .under-line:hover::before {
     @apply w-full;

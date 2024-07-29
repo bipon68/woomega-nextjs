@@ -54,6 +54,14 @@ const config: Config = {
         30: "30px",
       },
       keyframes: {
+        slideTop: {
+          '0%': { transform: 'translateY(50px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        slideBottom: {
+          '100%': { transform: 'translateY(50px)', opacity: '0' },
+          '0%': { transform: 'translateY(0)', opacity: '1' },
+        },
         zoomIn: {
           from: {
             opacity: '0',
@@ -70,6 +78,8 @@ const config: Config = {
       },
       animation: {
         zoomIn: 'zoomIn 500ms ease-in-out both',
+        slideTop: 'slideTop 500ms ease-in-out forwards',
+        slideBottom: 'slideBottom 500ms ease-in-out forwards',
       },
     },
   },

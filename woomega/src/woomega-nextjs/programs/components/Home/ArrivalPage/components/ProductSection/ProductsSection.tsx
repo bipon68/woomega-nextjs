@@ -26,7 +26,7 @@ const ProductsSection = () => {
           <Link href="">
             <div className="relative">
               <Image src={item.img} alt={item.title} />
-              <div className={`absolute bottom-1 right-1 transition-opacity ease-in-out duration-500 ${hoverOn === index ? "opacity-100 " : "opacity-0"}`}>
+              <div className={`absolute bottom-1 right-1  ${hoverOn === index ? "animate-slideTop" : "animate-slideBottom"}`}>
                 <ProductAction />
               </div>
             </div>

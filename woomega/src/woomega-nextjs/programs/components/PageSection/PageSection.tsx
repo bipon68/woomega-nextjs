@@ -2,6 +2,7 @@ import React from "react";
 import AboutPage from "./AboutPage/AboutPage";
 import StoriesSection from "./StoriesSection/StoriesSection";
 import FeaturedSec from "./FeaturedSec/FeaturedSec";
+import FindSection from "./FindSection/FindSection";
 
 const PageSection = () => {
   return (
@@ -10,6 +11,7 @@ const PageSection = () => {
         <AboutPage />
         <StoriesSection />
         <FeaturedSec />
+        <FindSection />
       </div>
     </div>
   );

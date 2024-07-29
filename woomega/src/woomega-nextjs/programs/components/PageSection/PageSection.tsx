@@ -4,6 +4,7 @@ import StoriesSection from "./StoriesSection/StoriesSection";
 import FeaturedSec from "./FeaturedSec/FeaturedSec";
 import FindSection from "./FindSection/FindSection";
 import PartnerSection from "./PartnerSection/PartnerSection";
+import Newsletter from "./Newsletter/Newsletter";
 
 const PageSection = () => {
   return (
@@ -14,6 +15,7 @@ const PageSection = () => {
         <FeaturedSec />
         <FindSection />
         <PartnerSection />
+        <Newsletter />
       </div>
     </div>
   );

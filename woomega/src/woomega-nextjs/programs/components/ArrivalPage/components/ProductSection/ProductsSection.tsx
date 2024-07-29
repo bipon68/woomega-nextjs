@@ -1,6 +1,6 @@
 'use client'
 
-import { ProductsList } from "@/woomega-nextjs/utlis/Link/list";
+import { ProductsList } from "@/woomega-nextjs/utils/Link/list";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";

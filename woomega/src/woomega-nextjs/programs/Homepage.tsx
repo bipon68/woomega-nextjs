@@ -11,6 +11,7 @@ function Homepage() {
       <LandingPage />
       <OfferPage />
       <ArrivalPage />
+
     </div>
   );
 }

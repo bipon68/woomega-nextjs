@@ -46,22 +46,17 @@
       max-width: 1320px;
     }
   }
+  /* btm--start */
   .btn {
     @apply bg-transparent text-white text-base inline-block min-w-[175px] whitespace-nowrap py-0 px-4 font-medium w-36 h-13 leading-[50px] bg-primary relative text-ellipsis duration-[0.3s];
   }
   .btn span {
-    position: relative;
-    z-index: 1;
+    @apply relative z-[1];
   }
 
   .btn:after,
   .btn:before {
-    position: absolute;
-    height: 100%;
-    top: 0;
-    z-index: 0;
-    background: #22222b;
-    transition: 0.3s;
+    @apply absolute h-full top-0 z-0 bg-[#22222b] duration-[0.3s];
     content: "";
   }
 
@@ -89,5 +84,14 @@
   .btn:hover:after,
   .btn.active:after {
     width: 50%;
+  }
+  /* btn--end */
+  /* underline--hover--start */
+  .under-line::before {
+    content: "";
+    @apply absolute -bottom-2 left-0 w-[0%] h-[2px] bg-primary transition-all ease-in-out duration-[0.3s];
+  }
+  .under-line:hover::before {
+    @apply w-full;
   }
 }

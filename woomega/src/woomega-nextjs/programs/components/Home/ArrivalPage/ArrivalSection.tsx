@@ -5,6 +5,7 @@ import ProductsSection from "./components/ProductSection/ProductsSection";
 import ArrivalEnd from "./components/ArrivalEnd/ArrivalEnd";
 
 
+
 const ArrivalPage = () => {
   return (
     <div className="container my-0 mx-auto">

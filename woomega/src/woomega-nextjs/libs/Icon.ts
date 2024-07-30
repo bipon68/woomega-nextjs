@@ -34,6 +34,9 @@ import eyeActive from "@/assets/Icon/productSecIcon/productSecActiveIcon/icon-vi
 
 import modalSearchIcon from "@/assets/Icon/SearchIcon/search-icon.svg";
 
+//breadcumb
+import breadcumb from "@/assets/breadcumb-banner.jpg";
+
 export const navIcon = {
   searchIcon,
   cartIcon,
@@ -71,4 +74,8 @@ export const productActiveIcon = {
 
 export const searchModalIcon = {
   modalSearchIcon,
+};
+
+export const breadcumblist = {
+  breadcumb,
 };

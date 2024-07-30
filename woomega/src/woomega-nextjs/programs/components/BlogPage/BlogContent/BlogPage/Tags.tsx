@@ -6,7 +6,7 @@ const Tags = () => {
     <div className="">
       {list_3.map((item) => (
         <div key={item.id}>
-          <div className=" text-gray-400 bg-gray-500">
+          <div className=" text-gray-400 ">
             <div className=" "> {item.title}</div>
           </div>
         </div>

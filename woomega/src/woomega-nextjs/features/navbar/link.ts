@@ -17,7 +17,7 @@ export const menu = [
   {
     id: "page",
     title: "PAGE",
-    path: "",
+    path: "/",
     subMenu: [
       { title: "Blog", path: "/blog" },
       { title: "Blog Details", path: "/blog-details" },

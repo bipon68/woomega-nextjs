@@ -36,7 +36,7 @@ const Webmenu = () => {
               <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg ring-1 ring-black ring-opacity-5">
                 {item.subMenu.map((subItem) => (
                   <Link href={subItem.path} key={subItem.title}>
-                    <div className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                    <div className="block border-b px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                       {subItem.title}
                     </div>
                   </Link>

@@ -32,7 +32,7 @@ export const contactList = [
   {
     id: "mail",
     title: "Mail",
-    iocn: mail,
+    icon: mail,
     path: "/mail",
   },
 ];

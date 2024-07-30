@@ -56,7 +56,7 @@
 
   .btn:after,
   .btn:before {
-    @apply absolute h-full top-0 z-0 bg-[#22222b] duration-500;
+    @apply absolute h-full top-0 z-0 bg-secondary duration-500;
     content: "";
   }
 

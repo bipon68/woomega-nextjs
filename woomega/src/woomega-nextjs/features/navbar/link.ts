@@ -1,4 +1,3 @@
-
 export const menu = [
   {
     id: "home",
@@ -18,7 +17,11 @@ export const menu = [
   {
     id: "page",
     title: "PAGE",
-    path: "/page",
+    path: "",
+    subMenu: [
+      { title: "Blog", path: "/blog" },
+      { title: "Blog Details", path: "/blog-details" },
+    ],
   },
   {
     id: "contact",

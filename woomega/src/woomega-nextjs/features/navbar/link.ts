@@ -1,4 +1,3 @@
-import PageSection from "@/woomega-nextjs/programs/components/PageSection/PageSection";
 
 export const menu = [
   {
@@ -24,6 +23,6 @@ export const menu = [
   {
     id: "contact",
     title: "CONTACT",
-    path: "/contat",
+    path: "/contact",
   },
 ];

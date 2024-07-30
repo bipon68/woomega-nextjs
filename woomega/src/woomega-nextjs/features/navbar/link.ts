@@ -8,12 +8,12 @@ export const menu = [
   {
     id: "shop",
     title: "SHOP",
-    path: "/shop",
+    path: "/",
   },
   {
-    id: "feature",
-    title: "FEATURE",
-    path: "/feature",
+    id: "aboutus",
+    title: "About Us",
+    path: "/page",
   },
   {
     id: "page",

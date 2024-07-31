@@ -10,7 +10,11 @@ const SideContent = () => {
     <div className=" grid gap-9">
       <div className=" my-6 grid gap-5">
         <div className=" text-2xl">Search</div>
-        <input type="text" placeholder=" Search" className=" border-b" />
+        <input
+          type="text"
+          placeholder=" Search"
+          className=" border-b outline-none"
+        />
       </div>
       <div className=" grid gap-5">
         <div className=" text-2xl">Populer Post</div>

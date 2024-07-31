@@ -15,7 +15,9 @@ const BlogContent = () => {
               <div className=" text-xs text-gray-400">{item.date}</div>
               <div className="text-gray-400"> {item.details}</div>
               <div className=" mb-6">
-                <button className=" border-b border-black">Read More</button>
+                <button className=" border-b border-black hover:border-primary">
+                  Read More
+                </button>
               </div>
             </div>
           ))}

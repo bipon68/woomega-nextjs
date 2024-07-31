@@ -1,7 +1,7 @@
 import React from "react";
 import Populer from "./BlogPage/Populer";
 import Categories from "./BlogPage/Categories";
-import Tags from "./BlogPage/tags";
+import Tags from "./BlogPage/Tags";
 import Archives from "./BlogPage/Archives";
 import Instragram from "./BlogPage/Instragram";
 

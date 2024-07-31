@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,16 +7,14 @@ import { navIconArr } from "./navIconArr";
 import { SearchModal } from "../Modals/SearchModal";
 
 function Navbar() {
-
-  const [showModal, setShowModal] = useState<boolean>(false)
+  const [showModal, setShowModal] = useState<boolean>(false);
 
   const handleShow = () => {
-    setShowModal(true)
-  }
+    setShowModal(true);
+  };
   const handleClose = () => {
-    setShowModal(false)
-  }
-
+    setShowModal(false);
+  };
   const handleClick = (id: number) => {
     if (id === navIconArr[0].id) {
       handleShow();
@@ -29,15 +27,13 @@ function Navbar() {
         <Webmenu />
       </div>
       <div className="flex gap-4">
-        {
-          navIconArr.map((item) => (
-            <div className="size-7" key={item.id}>
-              <Link href={item.path} onClick={() => handleClick(item.id)} >
-                <Image src={item.icon} alt="" />
-              </Link>
-            </div>
-          ))
-        }
+        {navIconArr.map((item) => (
+          <div className="size-7" key={item.id}>
+            <Link href={item.path} onClick={() => handleClick(item.id)}>
+              <Image src={item.icon} alt="" />
+            </Link>
+          </div>
+        ))}
       </div>
       {showModal && <SearchModal handleClose={handleClose} />}
     </div>

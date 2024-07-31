@@ -3,6 +3,7 @@ import SideContent from "../BlogPage/BlogContent/SideContent";
 import { bloglist1, bloglist2 } from "./list";
 import Image from "next/image";
 import Customer from "./Customer";
+import Newsletter from "../PageSection/Newsletter/Newsletter";
 
 const BlogDetailsContent = () => {
   return (
@@ -45,6 +46,7 @@ const BlogDetailsContent = () => {
           <SideContent />
         </div>
       </div>
+      <Newsletter />
     </div>
   );
 };

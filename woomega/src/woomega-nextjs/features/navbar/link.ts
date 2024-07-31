@@ -11,7 +11,7 @@ export const menu = [
   },
   {
     id: "aboutus",
-    title: "About Us",
+    title: "ABOUT US",
     path: "/page",
   },
   {

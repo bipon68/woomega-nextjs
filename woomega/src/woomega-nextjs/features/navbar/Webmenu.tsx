@@ -19,7 +19,9 @@ const Webmenu = () => {
   return (
     <div className="h-full flex items-center gap-12">
       <div className="hidden md:block">
-        <Image src={Logo.MainLogo} alt="" />
+        <Link href={"/"}>
+          <Image src={Logo.MainLogo} alt="" />
+        </Link>
       </div>
       <div className="flex gap-9 ">
         {menu.map((item) => (

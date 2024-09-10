@@ -19,6 +19,6 @@ export const navIconArr = [
   {
     id: 4,
     icon: navIcon.profileIcon,
-    path: "/",
+    path: "/upload",
   },
 ];
